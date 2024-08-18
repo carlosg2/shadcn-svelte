@@ -6,11 +6,11 @@
 	import TasksDark from "$lib/img/examples/tasks-dark.png?enhanced";
 </script>
 
-<div class="md:hidden">
+<!-- <div class="md:hidden">
 	<enhanced:img src={TasksLight} alt="Tasks" class="block dark:hidden" />
 	<enhanced:img src={TasksDark} alt="Tasks" class="hidden dark:block" />
-</div>
-<div class="hidden h-full flex-1 flex-col space-y-8 p-8 md:flex">
+</div> -->
+<div class=" h-full flex-1 flex-col space-y-8 p-8 md:flex">
 	<div class="flex items-center justify-between space-y-2">
 		<div>
 			<h2 class="text-2xl font-bold tracking-tight">Welcome back!</h2>

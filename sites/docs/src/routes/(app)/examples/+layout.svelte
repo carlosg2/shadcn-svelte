@@ -4,8 +4,8 @@
 	import { Button } from "$lib/registry/default/ui/button/index.js";
 </script>
 
-<div class="container relative pb-10">
-	<PageHeader.Root>
+<div class="container relative py-10">
+	<!-- <PageHeader.Root>
 		<Announcement />
 		<PageHeader.Heading class="hidden md:block">Check out some examples</PageHeader.Heading>
 		<PageHeader.Heading class="md:hidden">Examples</PageHeader.Heading>
@@ -17,7 +17,7 @@
 			<Button href="/docs" class="rounded-[6px]">Get Started</Button>
 			<Button href="/components" variant="outline" class="rounded-[6px]">Components</Button>
 		</section>
-	</PageHeader.Root>
+	</PageHeader.Root> -->
 	<section>
 		<ExamplesNav />
 		<div class="bg-background overflow-hidden rounded-[0.5rem] border shadow-xl">

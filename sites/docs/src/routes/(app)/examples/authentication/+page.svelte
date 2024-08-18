@@ -5,12 +5,12 @@
 	import AuthenticationDark from "$lib/img/examples/authentication-dark.png?enhanced";
 </script>
 
-<div class="md:hidden">
+<!-- <div class="md:hidden">
 	<enhanced:img src={AuthenticationLight} alt="Authentication" class="block dark:hidden" />
 	<enhanced:img src={AuthenticationDark} alt="Authentication" class="hidden dark:block" />
-</div>
+</div> -->
 <div
-	class="container relative hidden h-[800px] flex-col items-center justify-center md:grid lg:max-w-none lg:grid-cols-2 lg:px-0"
+	class="container relative h-[800px] flex-col items-center justify-center grid lg:max-w-none lg:grid-cols-2 lg:px-0"
 >
 	<Button
 		href="/examples/authentication"

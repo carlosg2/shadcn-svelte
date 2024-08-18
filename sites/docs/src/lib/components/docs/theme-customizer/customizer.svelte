@@ -16,6 +16,29 @@
 </script>
 
 <ThemeWrapper defaultTheme="zinc" class="flex flex-col space-y-4 md:space-y-6">
+	<div class="space-y-1.5">
+		<Label class="text-xs">Mode</Label>
+		<div class="grid grid-cols-3 gap-2">
+			<Button
+				variant="outline"
+				size="sm"
+				on:click={() => setMode("light")}
+				class={cn($mode === "light" && "border-primary border-2")}
+			>
+				<Sun class="mr-1 -translate-x-1" />
+				Light
+			</Button>
+			<Button
+				variant="outline"
+				size="sm"
+				on:click={() => setMode("dark")}
+				class={cn($mode === "dark" && "border-primary border-2")}
+			>
+				<Moon class="mr-1 -translate-x-1" />
+				Dark
+			</Button>
+		</div>
+	</div>
 	<div class="flex items-start">
 		<div class="space-y-1 pr-2">
 			<div class="font-semibold leading-none tracking-tight">Customize</div>
@@ -37,7 +60,7 @@
 		</Button>
 	</div>
 	<div class="flex flex-1 flex-col space-y-4 md:space-y-6">
-		<div class="5 space-y-1">
+		<!-- <div class="5 space-y-1">
 			<div class="flex w-full items-center">
 				<Label class="text-xs">Style</Label>
 				<Popover.Root>
@@ -87,7 +110,7 @@
 					New York
 				</Button>
 			</div>
-		</div>
+		</div> -->
 		<div class="5 space-y-1">
 			<Label class="text-xs">Color</Label>
 			<div class="grid grid-cols-3 gap-2">
@@ -132,28 +155,6 @@
 				{/each}
 			</div>
 		</div>
-		<div class="space-y-1.5">
-			<Label class="text-xs">Mode</Label>
-			<div class="grid grid-cols-3 gap-2">
-				<Button
-					variant="outline"
-					size="sm"
-					on:click={() => setMode("light")}
-					class={cn($mode === "light" && "border-primary border-2")}
-				>
-					<Sun class="mr-1 -translate-x-1" />
-					Light
-				</Button>
-				<Button
-					variant="outline"
-					size="sm"
-					on:click={() => setMode("dark")}
-					class={cn($mode === "dark" && "border-primary border-2")}
-				>
-					<Moon class="mr-1 -translate-x-1" />
-					Dark
-				</Button>
-			</div>
-		</div>
+		
 	</div>
 </ThemeWrapper>

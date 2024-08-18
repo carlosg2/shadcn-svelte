@@ -476,15 +476,15 @@ export const themes = [
 	},
 	{
 		name: "blue",
-		label: "Blue",
+		label: "Blue S",
 		activeColor: {
 			light: "221.2 83.2% 53.3%",
 			dark: "217.2 91.2% 59.8%",
 		},
 		cssVars: {
 			light: {
-				background: "0 0% 100%",
-				foreground: "222.2 84% 4.9%",
+				background: "221.2 83.2% 53.3",
+				foreground: "221.2 83.2% 53.3",
 				card: "0 0% 100%",
 				"card-foreground": "222.2 84% 4.9%",
 				popover: "0 0% 100%",

@@ -19,15 +19,15 @@
 
 <div class="container">
 	<ThemeWrapper
-		defaultTheme="zinc"
+		
 		class="relative flex flex-col items-start md:flex-row md:items-center"
 	>
 		<PageHeader.Root>
-			<Announcement />
+			<!-- <Announcement />
 			<PageHeader.Heading class="hidden md:block">Tailwind Colors</PageHeader.Heading>
-			<PageHeader.Heading class="md:hidden">Tailwind Colors</PageHeader.Heading>
+			<PageHeader.Heading class="md:hidden">Tailwind Colors</PageHeader.Heading> -->
 			<PageHeader.Description balanced={false}>
-				Tailwind CSS colors in HSL, RGB, and HEX formats.
+				Colores en formatos HSL, RGB y HEX.
 			</PageHeader.Description>
 		</PageHeader.Root>
 	</ThemeWrapper>

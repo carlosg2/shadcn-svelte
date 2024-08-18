@@ -5,6 +5,7 @@
 		MainNav,
 		MobileNav,
 		ModeToggle,
+		ThemeCustomizer,
 	} from "$lib/components/docs/index.js";
 	import { buttonVariants } from "$lib/registry/new-york/ui/button/index.js";
 	import { siteConfig } from "$lib/config/site.js";
@@ -22,7 +23,8 @@
 				<CommandMenu />
 			</div>
 			<nav class="flex items-center">
-				<a href={siteConfig.links.github} target="_blank" rel="noopener noreferrer">
+				<ThemeCustomizer />
+				<!-- <a href={siteConfig.links.github} target="_blank" rel="noopener noreferrer">
 					<div
 						class={cn(
 							buttonVariants({
@@ -49,7 +51,7 @@
 						<Icons.twitter class="h-3 w-3 fill-current" />
 						<span class="sr-only">X (formerly known as Twitter)</span>
 					</div>
-				</a>
+				</a> -->
 				<ModeToggle />
 			</nav>
 		</div>

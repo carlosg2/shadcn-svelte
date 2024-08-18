@@ -28,21 +28,21 @@
 					value="preview"
 					class="text-muted-foreground data-[state=active]:border-b-primary data-[state=active]:text-foreground relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold shadow-none transition-none data-[state=active]:shadow-none"
 				>
-					Preview
+					Vista previa
 				</Tabs.Trigger>
 				<Tabs.Trigger
 					value="code"
 					class="text-muted-foreground data-[state=active]:border-b-primary data-[state=active]:text-foreground relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold shadow-none transition-none data-[state=active]:shadow-none"
 				>
-					Code
+					Código
 				</Tabs.Trigger>
 			</Tabs.List>
 		</div>
 		<Tabs.Content value="preview" class="relative rounded-md border">
-			<div class="flex items-center justify-between p-4">
+			<!-- <div class="flex items-center justify-between p-4">
 				<StyleSwitcher />
-			</div>
-			<ThemeWrapper defaultTheme="zinc">
+			</div> -->
+			<ThemeWrapper >
 				<div
 					class={cn(
 						"preview flex min-h-[350px] w-full justify-center p-10",
@@ -79,7 +79,7 @@
 			</ThemeWrapper>
 		</Tabs.Content>
 		<Tabs.Content value="code">
-			<ThemeWrapper defaultTheme="zinc">
+			<ThemeWrapper >
 				<div
 					class="w-full rounded-md [&_pre]:my-0 [&_pre]:max-h-[350px] [&_pre]:overflow-auto"
 				>

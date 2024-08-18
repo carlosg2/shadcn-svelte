@@ -16,7 +16,7 @@
 <div class="md:grids-col-2 grid md:gap-4 lg:grid-cols-10 xl:grid-cols-11 xl:gap-4">
 	<div class="space-y-4 lg:col-span-4 xl:col-span-6 xl:space-y-4">
 		<CardsStats />
-		<div class="grid gap-1 sm:grid-cols-[280px_1fr] md:hidden">
+		<div class="grid gap-1 grid-cols-1 md:hidden">
 			<CardsCalendar />
 			<div class="pt-3 sm:pl-2 sm:pt-0 xl:pl-4">
 				<CardsActivityGoal />
@@ -25,7 +25,7 @@
 				<CardsMetric />
 			</div>
 		</div>
-		<div class="grid gap-4 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
+		<div class="grid gap-4 grid-cols-1 lg:grid-cols-1 xl:grid-cols-2">
 			<div class="space-y-4 xl:space-y-4">
 				<CardsTeamMembers />
 				<CardsCookieSettings />

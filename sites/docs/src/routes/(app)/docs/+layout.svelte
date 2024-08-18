@@ -1,9 +1,13 @@
 <script lang="ts">
 	import { ScrollArea } from "$lib/registry/new-york/ui/scroll-area/index.js";
-	import { DocsSidebarNav } from "$lib/components/docs/index.js";
+	import { DocsSidebarNav, ThemeWrapper } from "$lib/components/docs/index.js";
 	import { docsConfig } from "$lib/config/docs.js";
 </script>
 
+<!-- <ThemeWrapper
+		defaultTheme="zinc"
+		class="relative flex flex-col items-start md:flex-row md:items-center"
+	> -->
 <div class="border-b">
 	<div
 		class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"
@@ -18,3 +22,5 @@
 		<slot />
 	</div>
 </div>
+
+<!-- </ThemeWrapper> -->

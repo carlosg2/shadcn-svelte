@@ -19,7 +19,7 @@
 </script>
 
 <div class="mb-5 flex flex-col items-center gap-2">
-	<div class="font-bold">Choose color format to copy:</div>
+	<div class="font-bold">Elija el formato de color para copiar:</div>
 	<RadioGroup.Root bind:value={selectedFormat} class="flex flex-row gap-5">
 		<div class="flex cursor-pointer items-center space-x-2">
 			<RadioGroup.Item value="hsl" id="hsl-option" />

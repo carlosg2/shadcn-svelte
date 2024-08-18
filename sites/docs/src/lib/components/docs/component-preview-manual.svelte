@@ -13,7 +13,7 @@
 			<div class="flex items-center justify-between p-4">
 				<StyleSwitcher />
 			</div>
-			<ThemeWrapper defaultTheme="zinc">
+			<ThemeWrapper>
 				<div
 					class={cn(
 						"preview flex min-h-[350px] w-full justify-center p-10",

@@ -16,7 +16,7 @@
 </script>
 
 <div class="flex items-center space-x-2">
-	<div class="mr-2 hidden items-center space-x-0.5 lg:flex">
+	<!-- <div class="mr-2 hidden items-center space-x-0.5 lg:flex">
 		{#each colors as color (color)}
 			{@const theme = themes.find((theme) => theme.name === color)}
 			{@const isActive = $config.theme === color}
@@ -61,13 +61,13 @@
 				</Tooltip.Root>
 			{/if}
 		{/each}
-	</div>
+	</div> -->
 	<div class="block md:hidden">
 		<Drawer.Root>
 			<Drawer.Trigger asChild let:builder>
 				<Button variant="outline" builders={[builder]}>
 					<Paintbrush class="mr-2 h-4 w-4" />
-					Customize
+					<!-- Customize -->
 				</Button>
 			</Drawer.Trigger>
 			<Drawer.Content class="bg-white p-6 dark:bg-zinc-950">
@@ -78,9 +78,9 @@
 	<div class="hidden md:block">
 		<Popover.Root>
 			<Popover.Trigger asChild let:builder>
-				<Button variant="outline" builders={[builder]}>
-					<Paintbrush class="mr-2 h-4 w-4" />
-					Customize
+				<Button variant="outline" size="icon" builders={[builder]}>
+					<Paintbrush class=" h-4 w-4" />
+					<!-- Customize -->
 				</Button>
 			</Popover.Trigger>
 			<Popover.Content
@@ -91,5 +91,5 @@
 			</Popover.Content>
 		</Popover.Root>
 	</div>
-	<ThemeCopyCodeButton />
+	<!-- <ThemeCopyCodeButton /> -->
 </div>

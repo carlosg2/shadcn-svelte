@@ -13,7 +13,7 @@
 		</span>
 	</a>
 	<nav class="flex items-center gap-6 text-sm">
-		<a
+		<!-- <a
 			href="/docs"
 			class={cn(
 				"hover:text-foreground/80 transition-colors",
@@ -21,7 +21,7 @@
 			)}
 		>
 			Docs
-		</a>
+		</a> -->
 		<a
 			href="/docs/components"
 			class={cn(
@@ -33,7 +33,7 @@
 		>
 			Components
 		</a>
-		<a
+		<!-- <a
 			href="/themes"
 			class={cn(
 				"hover:text-foreground/80 transition-colors",
@@ -62,7 +62,7 @@
 			)}
 		>
 			Blocks
-		</a>
+		</a> -->
 		<a
 			href="/colors"
 			class={cn(
@@ -72,7 +72,7 @@
 		>
 			Colors
 		</a>
-		<a
+		<!-- <a
 			href={siteConfig.links.github}
 			target="_blank"
 			rel="noopener noreferrer"
@@ -81,6 +81,6 @@
 			)}
 		>
 			GitHub
-		</a>
+		</a> -->
 	</nav>
 </div>

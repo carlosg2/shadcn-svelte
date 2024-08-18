@@ -7,15 +7,15 @@ type DocsConfig = {
 
 export const docsConfig: DocsConfig = {
 	mainNav: [
-		{
+		/* {
 			title: "Documentation",
 			href: "/docs",
-		},
+		}, */
 		{
 			title: "Components",
 			href: "/docs/components/accordion",
 		},
-		{
+		/* {
 			title: "Themes",
 			href: "/themes",
 		},
@@ -26,19 +26,19 @@ export const docsConfig: DocsConfig = {
 		{
 			title: "Blocks",
 			href: "/blocks",
-		},
+		}, */
 		{
 			title: "Colors",
 			href: "/colors",
 		},
-		{
+		/* {
 			title: "GitHub",
 			href: "https://github.com/huntabyte/shadcn-svelte",
 			external: true,
-		},
+		}, */
 	],
 	sidebarNav: [
-		{
+		/* {
 			title: "Getting Started",
 			items: [
 				{
@@ -92,7 +92,7 @@ export const docsConfig: DocsConfig = {
 					items: [],
 				},
 			],
-		},
+		}, */
 		{
 			title: "Components",
 			items: [
@@ -352,6 +352,11 @@ type Example = {
 	code: string;
 };
 export const examples: Example[] = [
+	{
+		name: "Theme",
+		href: "/examples/theme",
+		code: "https://github.com/huntabyte/shadcn-svelte/tree/main/sites/docs/src/routes/(app)/examples/mail",
+	},
 	{
 		name: "Mail",
 		href: "/examples/mail",

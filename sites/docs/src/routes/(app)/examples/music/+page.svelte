@@ -11,11 +11,11 @@
 	import MusicDark from "$lib/img/examples/music-dark.png?enhanced";
 </script>
 
-<div class="md:hidden">
+<!-- <div class="md:hidden">
 	<enhanced:img src={MusicLight} alt="Music" class="block dark:hidden" />
 	<enhanced:img src={MusicDark} alt="Music" class="hidden dark:block" />
-</div>
-<div class="hidden md:block">
+</div> -->
+<div class="block">
 	<Menu />
 	<div class="border-t">
 		<div class="bg-background">

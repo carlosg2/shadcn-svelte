@@ -24,7 +24,7 @@
 					Copy and paste the following code into your CSS file.
 				</Dialog.Description>
 			</Dialog.Header>
-			<ThemeWrapper defaultTheme="zinc" class="relative">
+			<ThemeWrapper class="relative">
 				<CustomizerCode {setCodeString} />
 				{#if activeTheme}
 					<Button

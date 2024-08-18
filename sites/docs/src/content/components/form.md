@@ -1,5 +1,5 @@
 ---
-title: Formsnap & Superforms
+title: Forms
 description: Building forms with Formsnap, Superforms, & Zod.
 ---
 
